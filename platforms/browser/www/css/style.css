@@ -1,0 +1,407 @@
+/* muli-200 - latin
+https://google-webfonts-helper.herokuapp.com/fonts/muli?subsets=latin
+*/
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/muli-v13-latin-200.eot');
+    /* IE9 Compat Modes */
+    src: local('Muli ExtraLight'), local('Muli-ExtraLight'), url('../fonts/muli-v13-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/muli-v13-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/muli-v13-latin-200.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/muli-v13-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/muli-v13-latin-200.svg#Muli') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* muli-300 - latin */
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/muli-v13-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local('Muli Light'), local('Muli-Light'), url('../fonts/muli-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/muli-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/muli-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/muli-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/muli-v13-latin-300.svg#Muli') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* muli-regular - latin */
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/muli-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Muli Regular'), local('Muli-Regular'), url('../fonts/muli-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/muli-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/muli-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/muli-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/muli-v13-latin-regular.svg#Muli') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* muli-900 - latin */
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/muli-v13-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local('Muli Black'), local('Muli-Black'), url('../fonts/muli-v13-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/muli-v13-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/muli-v13-latin-900.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/muli-v13-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/muli-v13-latin-900.svg#Muli') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+
+/* stop the scroll */
+
+html,
+body {
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: #B6BFC1;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+}
+
+#search-btn {
+    text-decoration: none;
+    color: #222222;
+}
+
+#topBar,
+#minMax {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #222222;
+    width: 100%;
+}
+
+#minMax p {
+    font-weight: 200;
+}
+
+#topBar h1 {
+    color: #fcfcfc;
+    letter-spacing: 0.5rem;
+}
+
+#city-name {
+    letter-spacing: 0.5rem;
+}
+
+#topBar i {
+    font-size: 1.5rem;
+}
+
+#topbar a,
+.search a {
+    text-decoration: none;
+    color: #222222;
+}
+
+header,
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.clothes {
+    /* background-color: #222222; */
+    background-color: #B6BFC1;
+    border-radius: 50%;
+    width: 150%;
+    height: 80vh;
+    overflow: hidden;
+    color: #fcfcfc;
+    padding-top: 2rem;
+}
+
+.darkbg {
+    background-color: #222222;
+}
+
+#clothe1 {
+    width: 30vw;
+    margin: 0 auto;
+}
+
+#clothe1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#temp h1 {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+#myicon {
+    text-align: center;
+}
+
+
+/* class to center the input on first open*/
+
+.introSearch {
+    height: 100vh;
+}
+
+.search {
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    text-align: center;
+}
+
+#myicon.owf {
+    font-size: 150px;
+    color: #fcfcfc;
+    text-align: center;
+}
+
+#city-name p,
+.mama p {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 10px 0;
+    letter-spacing: 0.5rem;
+}
+
+.mama p {
+    color: #fcfcfc;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+input {
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    border: 0;
+    background-color: #B6BFC1;
+    color: #fcfcfc;
+    font-size: 20px;
+}
+
+.dnone {
+    display: none;
+}
+
+.dblock {
+    display: block;
+}
+
+
+/*Animation from animate.css*/
+
+@-webkit-keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.heartBeat {
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* fadeinup */
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animated.three {
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+}
+
+.animated.delay-03s {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.animated.delay-05s {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.animated.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.animated.delay-2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.animated.delay-3s {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.animated.delay-4s {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.animated.delay-5s {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.animated.fast {
+    -webkit-animation-duration: 800ms;
+    animation-duration: 800ms;
+}
+
+.animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+}
+
+.animated.slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.animated.slower {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+@media (print),
+(prefers-reduced-motion: reduce) {
+    .animated {
+        -webkit-animation-duration: 1ms !important;
+        animation-duration: 1ms !important;
+        -webkit-transition-duration: 1ms !important;
+        transition-duration: 1ms !important;
+        -webkit-animation-iteration-count: 1 !important;
+        animation-iteration-count: 1 !important;
+    }
+}

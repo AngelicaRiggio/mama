@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com https://api.openweathermap.org; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta charset="UTF-8">
+    <meta name="description" content="mama tells you how to wear!">
+    <title>Mama</title>
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link href="css/owfont-regular.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- input location -->
+        <div id="topBar">
+
+            <i class="ion-md-list"></i>
+            <h1>MaMa</h1>
+            <a href="index.html"><i class="ion-md-close"></i></a>
+
+
+        </div>
+        <header class="header introSearch">
+            <div class="search">
+                <input type="text" placeholder="your city..." id="search-txt">
+                <a id="search-btn" href="#">
+                    <i class="ion-md-search"></i>
+                </a>
+            </div>
+        </header>
+        <!-- main output -->
+        <main id="main">
+            <div class="city-icon">
+                <div class="city-icon-holder">
+                    <div id="city-name"></div>
+                </div>
+            </div>
+            <!-- icons from openWeather codes converted in owfonts -->
+            <div>
+                <!-- <img src="" alt="" id="icon"> -->
+                <i id="myicon"></i>
+            </div>
+
+            <div class="temperature">
+                <div id="temp"></div>
+            </div>
+            <div id="minMax">
+                <div id="tempmin"></div>
+                <div id="tempmax"></div>
+            </div>
+
+            <!-- my conditional output of clothes -->
+            <div class="clothes dnone animated delay-03s fadeInUp">
+                <div class="mama">
+                    <p>MAMA<br>ADVISES</p>
+                </div>
+                <div id="clothe1" class="dnone animated delay-2s fadeInUp"></div>
+            </div>
+
+        </main>
+    </div>
+    <!-- cordova.js - mandatory for cordova apps -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- index.js - app scripts-->
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
