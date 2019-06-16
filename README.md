@@ -22,4 +22,4 @@ Icons and icon fonts: Ionicons and Owfonts (weather)
 - Keyboard
 
 
-![alt text](https://github.com/AngelicaRiggio/mama/www/img/logo.png "logo mama")
+![alt text](https://github.com/AngelicaRiggio/mama/blob/master/www/img/logo.png "logo mama")
