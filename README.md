@@ -21,3 +21,5 @@ Icons and icon fonts: Ionicons and Owfonts (weather)
 - Splashscreen
 - Keyboard
 
+
+https://github.com/AngelicaRiggio/mama/www/img/logo.png
