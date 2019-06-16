@@ -17,7 +17,7 @@ HTML, CSS, Javascript Vanilla (no Css frameworks, no Javascript libraries)
 Icons and icon fonts: Ionicons and Owfonts (weather)
 
 ## Apache Cordova - Android hybrid app
-+ plugins:
+- plugins:
 - Splashscreen
 - Keyboard
 
