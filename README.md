@@ -25,3 +25,6 @@ Icons and icon fonts: Ionicons and Owfonts (weather)
 ![alt text](https://github.com/AngelicaRiggio/mama/blob/master/www/img/logo.png "logo mama")
 
 ## Screenshots
+![alt text](https://github.com/AngelicaRiggio/mama/blob/master/screenshots/Screenshot_20190616-130509_1.jpg "logo mama")
+![alt text](https://github.com/AngelicaRiggio/mama/blob/master/screenshots/Screenshot_20190616-130527_1.jpg "logo mama")
+![alt text](https://github.com/AngelicaRiggio/mama/blob/master/screenshots/Screenshot_20190616-144640_1.jpg "logo mama")
