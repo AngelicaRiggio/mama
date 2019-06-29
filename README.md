@@ -1,7 +1,9 @@
 
 # mama
 Published on Android Google Play Store!
-https://play.google.com/store/apps/details?id=com.angieapps.mama&hl=it
+
+<a href='https://play.google.com/store/apps/details?id=com.angieapps.mama&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+
 ## Mama loves you
 
 The app is connected to a Weather Service (OpenWeatherMap).
