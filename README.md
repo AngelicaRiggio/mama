@@ -1,5 +1,6 @@
 
 # mama
+Published on Android Google Play Store!
 https://play.google.com/store/apps/details?id=com.angieapps.mama&hl=it
 ## Mama loves you
 
